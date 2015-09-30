@@ -1,0 +1,80 @@
+/* header styles */
+
+.header-container {
+	max-width: 600px;
+	margin: auto;
+}
+
+#logo {
+	max-width: 75px;
+	padding-top: 18px;
+}
+
+#name-motto {
+	float: right;
+	list-style-type: none;
+	font-family: arial;
+}
+
+#name {
+	text-align: right;
+	font-size: 25pt;
+	color: gray;
+}
+
+#motto {
+	text-align: right;
+	color: gray;
+}
+
+/* body styles */
+
+.content-container {
+	max-width: 600px;
+	margin: auto;
+}
+
+.eyecatcher {
+	max-width: 100%;
+}
+
+/* footer styles */
+
+#featured {
+	font-family: arial;
+	font-size: 25pt;
+	font-weight: bold;
+	color: black;
+}
+
+.image-container {
+	max-width: 600px;
+	margin: auto;
+	outline-style: solid;
+	outline-color: gray;
+	outline-width: 2px;
+}
+
+.portfolio-site {
+	max-width: 32%;
+}
+
+/* media queries */
+
+@media (max-width: 600px) {
+
+	.header-container {
+		margin-right: auto;
+		margin-left: auto:;
+	}
+
+	.content-container {
+		margin-right: auto; 
+		margin-left: auto;
+	}
+
+	.image-container {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
